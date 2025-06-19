@@ -17,7 +17,7 @@ function Header()
                     <Link to="/about-me" className="h-button">About me</Link>
                     <Link to="/experience" className="h-button">Experience</Link>
                     <Link to="/my-story" className="h-button">My Story</Link>
-                    <Link to="/skills" className="h-button">Skill Meter</Link>
+                    <Link to="/experience/skills" className="h-button">Skill Meter</Link>
                 </nav>
             </div>
             </div>
