@@ -1,4 +1,6 @@
 import emailjs from 'emailjs-com'
+import sendIcon from '../assets/send.png'
+import './formbox.css'
 
 export default function Box()
 {
@@ -9,11 +11,10 @@ export default function Box()
         emailjs.sendForm('gmail', 'template_g2wvmbw', event.target, '0j2DZa8CTtI695UET')
     }
 
-    return
-    {
+    return (
         <form onSubmit={send}>
-            <textarea name="message" placeholder="Type here to send a message..." required></textarea>
-            <button type="submit"><img src='../assets/send.png' /></button>
+            <textarea id="msg" name="message" placeholder="Type here to send a message..." required></textarea>
+            <button type="submit"><img src={sendIcon} alt="send"/></button>
         </form>
-    }
+    )
 }

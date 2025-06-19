@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css';
 import Header from './components/Header.jsx'
+import Footer from './components/Footer.jsx'
 import About from './pages/about-me.jsx'
 import Experience from './pages/experiences.jsx'
 import Stories from './pages/stories.jsx'
@@ -32,7 +33,9 @@ function App() {
         */}
       </Routes>
     
-      
+        <div id="Footer">
+          <Footer />
+        </div>
       </>
   )
 }
