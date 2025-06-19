@@ -9,6 +9,12 @@
     object-fit : contain;
     width : 50px;
     height : 50px;
+    transition-duration: 1s;
+}
+
+#home:hover
+{
+    transform: scale(1.1,1.1);
 }
 
 #outer {
@@ -58,4 +64,10 @@ h1
     font-size: large;
     border-radius: 10px;
     color: whitesmoke;
+    transition-duration: 1s;
+}
+
+.h-button:hover
+{
+    transform : translateY(10px);
 }

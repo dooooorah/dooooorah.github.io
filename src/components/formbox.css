@@ -1,7 +1,7 @@
 #msg
 {
-    padding : 20px;
-    width : 200px;
+    padding : 5px;
+    width : 250px;
     height : 100px;
     resize : none;
 }
@@ -14,7 +14,71 @@ button
     border : transparent;
 }
 
-button:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+@keyframes load
+{
+  0% {opacity : 100%;}
+  50% {opacity : 50%;}
+  100% {opacity : 100%;}
+}
+
+#sending-load
+{
+  width : 50px;
+  background-color: orange;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: black;
+  animation-name: load;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+
+
+@keyframes loaded
+{
+  25% {transform : rotate(-10deg)}
+  50% {transform : rotate(10deg)}
+  75% {transform : rotate(-10deg)}
+  100% {transform : rotate(0)}
+}
+
+#success h4
+{
+  width : 50px;
+  background-color: green;
+  border-style : solid;
+  border-width: 2px;
+  border-color: black;
+  animation-name: loaded;
+  animation-duration: 0.5s;
+  text-align: center;
+}
+
+#success button
+{
+  background-color: aqua;
+  border-color: black;
+  border-style: solid;
+  border-width : 2px;
+  height : 20px;
+  font-weight: bold;
+  transition : transform 1s;
+  text-align: center;
+}
+
+#success button:hover
+{
+  transform : scale(1.2,1.2);
+}
+
+#sender
+{
+  height : 30px;
+  transition : height 1s;
+}
+
+#sender:hover {
+  height : 40px;
 }
 

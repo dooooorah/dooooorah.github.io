@@ -1,0 +1,39 @@
+#backdrop
+{
+    background-color: rgb(249, 36, 36);
+    display : flex;
+    width : 900px;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding : 0px 20px;
+    border-color: black;
+    border-style : solid;
+    border-width : 10px;
+}
+
+#disclaimer
+{
+    width : 400px;
+}
+
+#disclaimer > p
+{
+    font-weight: bold;
+    line-height: 1.5;
+}
+#disclaimer > h2
+{
+    font-size: 30px;
+}
+
+#contact
+{
+    width : auto;
+}
+
+#contact > h2
+{
+    font-size: 30px;
+}
