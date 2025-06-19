@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
+import './App.css';
 import Header from './components/Header.jsx'
 import About from './pages/about-me.jsx'
 import Experience from './pages/experiences.jsx'
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header id="Header"/>
 
       <Routes>
         <Route path="/about-me" element={<About />} />
