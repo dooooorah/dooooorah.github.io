@@ -12,7 +12,9 @@ function App() {
 
   return (
     <>
-      <Header id="Header"/>
+      <div id="Header">
+        <Header />
+      </div>
 
       <Routes>
         <Route path="/about-me" element={<About />} />
