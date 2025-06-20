@@ -1,0 +1,20 @@
+.stonav
+{
+    display : flex;
+    width : 700px;
+    margin : auto;
+    justify-content: space-between;
+}
+
+#storybody
+{
+    font-size: 20px;
+}
+
+#greenfoot
+{
+    display : block;
+    width : 900px;
+    margin : auto;
+    object-fit: contain;
+}
