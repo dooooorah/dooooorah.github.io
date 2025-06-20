@@ -10,3 +10,11 @@
 {
     font-size: 20px;
 }
+
+#greenfoot
+{
+    display : block;
+    width : 900px;
+    margin : auto;
+    object-fit: contain;
+}

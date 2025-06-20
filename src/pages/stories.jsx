@@ -23,7 +23,7 @@ export default function Stories()
                     simply because building is so fun.
                 </p>
 
-                <img src="https://www.oracle.com/webfolder/technetwork/tutorials/OracleAcademy/GreenfootSelfStudyV1/images/L1S3_World.png" alt="A picture of the Greenfoot UI"></img>
+                <img id="greenfoot" src="https://www.oracle.com/webfolder/technetwork/tutorials/OracleAcademy/GreenfootSelfStudyV1/images/L1S3_World.png" alt="A picture of the Greenfoot UI"></img>
 
 
                 <h2>You can also check out:</h2>
