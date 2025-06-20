@@ -7,7 +7,7 @@ export default function Card(props)
         <>
             <div id="box">
                 <h4>{props.title}</h4>
-                <Link to={props.page}><h4>{props.title}</h4>
+                <Link to={props.page}>
                     <img src={props.source} alt={props.altText}></img>
                 </Link>
             </div>
