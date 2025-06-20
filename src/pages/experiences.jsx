@@ -1,10 +1,14 @@
+import Card from '../components/DirectoryCard.jsx'
+
 export default function Experience()
 {
     return (
         <>
             <div id="background">
                 <h2>Experience</h2>
-                
+                <p>You can find a more compact version of this information by simply downloading my resume:</p>
+                <a href="../../public/Resume.pdf" download><button>Download here</button></a>
+
                 <h4>My earlier professional experience began with volunteering:</h4>
                 <ul>
                     <li>
@@ -21,6 +25,13 @@ export default function Experience()
                         organization skills that help me in my daily life. Knowing how difficult it can be to leave organization 
                         to the end, I now do my best to keep my world organized as I make changes to it instead of leaving it to the end.
                     </li>
+
+                    <li>
+                        Finally, I saw an interesting opportunity in my school email's inbox that requested volunteers to be Computing Science 
+                        peer tutors for courses with topics such as intro CS courses, Discrete Math, Data Structures and Algorithms. I decided to 
+                        apply for it and I found myself enjoying the opportunity to solidify my knowledege of those concepts by teaching others. I learned 
+                        a great deal about communication through the training course, and overall, it was a position that was very much worth my time!
+                    </li>
                 </ul>
 
                 <h4>Later on, I finally found my first job!</h4>
@@ -36,7 +47,19 @@ export default function Experience()
                         The company's website can be found <a href="https://www.kidsinnovative.com/">here!</a>
                     </li>
                 </ul>
+
+                <h4>I hope to add more to this section soon, as well as personal projects that are worthy of me showcasing them here.</h4>
                 
+                <h2>You can also check out:</h2>
+                <nav class="expnav">
+                    <Card page="/about-me" source="" altText="About me page" title="About me"/>
+                    <Card page="/my-story" source="" altText="My Story page" title="My Story"/>
+                </nav>
+
+                <h2>Or, you can go back to home:</h2>
+                <nav class="expnav">
+                    <Card page="/" source="" altText="Home page" title="Home"/>
+                </nav>
             </div>
         </>
     )
