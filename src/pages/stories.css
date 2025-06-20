@@ -1,0 +1,12 @@
+.stonav
+{
+    display : flex;
+    width : 700px;
+    margin : auto;
+    justify-content: space-between;
+}
+
+#storybody
+{
+    font-size: 20px;
+}
