@@ -8,7 +8,7 @@ export default function About()
     return (
         <>
             <div id="background">
-                <h2 class="title">About me (Mohid)!</h2>
+                <h2 className="title">About me (Mohid)!</h2>
                 <p id="aboutbody">As I mentioned before, I am currently a Computing Science student at Simon Fraser University.
                     During my studies, I like to engage in my hobbies! I'm passionate about fitness, gaming,
                     and spending time with my cats. Although life tends to get stressful at times, the gym is a great way to 
@@ -41,13 +41,13 @@ export default function About()
                 </p>
                 
                 <h2>Also, if you haven't already, check out:</h2>
-                <nav>
+                <nav className="aboutnav">
                     <Card page="/experience" source="" altText="Experience page" title="Experience"/>
                     <Card page="/my-story" source="" altText="My Story page" title="My Story"/>
                 </nav>
 
                 <h2>Or, you can go back to home:</h2>
-                <nav>
+                <nav className="aboutnav">
                     <Card page="/" source="" altText="Home page" title="Home"/>
                 </nav>
             </div>
