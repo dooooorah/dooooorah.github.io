@@ -1,0 +1,27 @@
+.catfoto
+{
+    width : 200px;
+    height : 200px;
+    object-fit: contain;
+}
+
+#photos
+{
+    display : flex;
+    width : 500px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#aboutbody
+{
+    font-size : 20px;
+}
+
+nav
+{
+    display : flex;
+    width : 700px;
+    margin : auto;
+    justify-content: space-between;
+}
