@@ -41,13 +41,13 @@ export default function About()
                 </p>
                 
                 <h2>Also, if you haven't already, check out:</h2>
-                <nav>
+                <nav class="aboutnav">
                     <Card page="/experience" source="" altText="Experience page" title="Experience"/>
                     <Card page="/my-story" source="" altText="My Story page" title="My Story"/>
                 </nav>
 
                 <h2>Or, you can go back to home:</h2>
-                <nav>
+                <nav class="aboutnav">
                     <Card page="/" source="" altText="Home page" title="Home"/>
                 </nav>
             </div>

@@ -7,7 +7,7 @@
     border-radius: 60px;
 }
 
-nav
+#homenav
 {
     display : flex;
     justify-content: space-between;

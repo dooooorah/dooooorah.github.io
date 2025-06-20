@@ -24,7 +24,7 @@ export default function Home()
                 </div>
 
                 <h2 class="title">Directory</h2>
-                <nav>
+                <nav id="homenav">
                     <Card page="/about-me" source="" altText="About me page" title="About me"/>
                     <Card page="/experience" source="" altText="Experience page" title="Experience"/>
                     <Card page="/my-story" source="" altText="My Story page" title="My Story"/>
