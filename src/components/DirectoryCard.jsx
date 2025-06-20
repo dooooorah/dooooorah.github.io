@@ -1,4 +1,5 @@
 import './DirectoryCard.css'
+import { Link } from 'react-router-dom'
 
 export default function Card(props)
 {
@@ -6,9 +7,9 @@ export default function Card(props)
         <>
             <div id="box">
                 <h4>{props.title}</h4>
-                <a href={props.page}>
+                <Link to={props.page}><h4>{props.title}</h4>
                     <img src={props.source} alt={props.altText}></img>
-                </a>
+                </Link>
             </div>
         </>
     )
