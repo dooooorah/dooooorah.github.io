@@ -1,0 +1,27 @@
+.expbody
+{
+    font-size : 20px;
+}
+
+.sectionIntro
+{
+    font-size: 30px;
+}
+
+.expnav
+{
+    display : flex;
+    width : 700px;
+    margin : auto;
+    justify-content: space-between;
+}
+
+#downloadRes button
+{
+    background-color: lightgray;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: gray;
+    width : auto;
+    height: auto;
+}

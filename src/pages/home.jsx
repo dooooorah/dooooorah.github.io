@@ -7,7 +7,7 @@ export default function Home()
     return(
         <>
             <div id="background">
-                <h2 class="title">Welcome to my Portfolio!</h2>
+                <h2 className="title">Welcome to my Portfolio!</h2>
 
 
                 <div id='homebody'>
@@ -23,7 +23,7 @@ export default function Home()
                     <img src={hi} id="imgHi"></img>
                 </div>
 
-                <h2 class="title">Directory</h2>
+                <h2 className="title">Directory</h2>
                 <nav id="homenav">
                     <Card page="/about-me" source="" altText="About me page" title="About me"/>
                     <Card page="/experience" source="" altText="Experience page" title="Experience"/>

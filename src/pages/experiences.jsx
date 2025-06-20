@@ -1,16 +1,23 @@
 import Card from '../components/DirectoryCard.jsx'
+import './experiences.css'
 
 export default function Experience()
 {
     return (
         <>
             <div id="background">
-                <h2>Experience</h2>
-                <p>You can find a more compact version of this information by simply downloading my resume:</p>
-                <a href="../../public/Resume.pdf" download><button>Download here</button></a>
+                <h2 className='title'>Experience</h2>
+                
+                <div id="downloadRes">
+                    <p>You can find a more compact version of this information by simply downloading my resume:</p>
+                    <a href="../../public/Resume.pdf" download><button>Download here</button></a>
+                </div>
 
-                <h4>My earlier professional experience began with volunteering:</h4>
-                <ul>
+                <br></br>
+                <br></br>
+
+                <h4 className="sectionIntro">My earlier professional experience began with volunteering:</h4>
+                <ul className="expbody">
                     <li>
                         While I was a part of the Surrey Air Cadets, I volunteered for a position
                         where I would collect donations for veterans in exchange for giving out poppies or bracelets.
@@ -34,8 +41,10 @@ export default function Experience()
                     </li>
                 </ul>
 
-                <h4>Later on, I finally found my first job!</h4>
-                <ul>
+                <br></br>
+
+                <h4 className='sectionIntro'>Later on, I finally found my first job!</h4>
+                <ul className='expbody'>
                     <li>
                         I received my first job offer from a company named KidsInnovative. Their business involved working with public schools 
                         to deliver programs taught by facilitators, which is where I came in. I was assigned to facilitate two types of programs:
@@ -48,7 +57,7 @@ export default function Experience()
                     </li>
                 </ul>
 
-                <h4>I hope to add more to this section soon, as well as personal projects that are worthy of me showcasing them here.</h4>
+                <h4 className='sectionIntro'>I hope to add more to this section soon, as well as personal projects that are worthy of me showcasing them here.</h4>
                 
                 <h2>You can also check out:</h2>
                 <nav class="expnav">
