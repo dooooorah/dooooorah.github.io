@@ -1,0 +1,54 @@
+
+#meter {
+  height: 200px;
+  width: 30px;
+  background: #eee;
+  border: 2px solid #333;
+  border-radius: 5px;
+  margin: 0 auto;
+  display : flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#none {
+  background-color: #ff6b6b;
+  width: 100%;
+  bottom: 0;
+  height : 0px;
+}
+
+#React {
+  background-color: #ff6b6b;
+  width: 100%;
+  bottom: 0;
+  height : 80px;
+}
+
+#DSA {
+  background-color: #ff6b6b;
+  width: 100%;
+  bottom: 0;
+  height : 40px;
+}
+
+#Git {
+  background-color: #ff6b6b;
+  width: 100%;
+  bottom: 0;
+  height : 60px;
+}
+
+#Github {
+  background-color: #ff6b6b;
+  width: 100%;
+  bottom: 0;
+  height : 100px;
+}
+
+#Python {
+  background-color: #ff6b6b;
+  width: 100%;
+  bottom: 0;
+  height : 80px;
+}

@@ -60,13 +60,13 @@ export default function Experience()
                 <h4 className='sectionIntro'>I hope to add more to this section soon, as well as personal projects that are worthy of me showcasing them here.</h4>
                 
                 <h2>You can also check out:</h2>
-                <nav class="expnav">
+                <nav className="expnav">
                     <Card page="/about-me" source="" altText="About me page" title="About me"/>
                     <Card page="/my-story" source="" altText="My Story page" title="My Story"/>
                 </nav>
 
                 <h2>Or, you can go back to home:</h2>
-                <nav class="expnav">
+                <nav className="expnav">
                     <Card page="/" source="" altText="Home page" title="Home"/>
                 </nav>
             </div>
