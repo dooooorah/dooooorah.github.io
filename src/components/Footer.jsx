@@ -1,5 +1,6 @@
 import Box from './formbox.jsx'
 import './Footer.css'
+import Socials from './socials.jsx'
 
 
 export default function Footer()
@@ -15,6 +16,7 @@ export default function Footer()
                 <div id='contact'>
                     <h2>Contact me here:</h2>
                     <Box />
+                    <Socials />
                 </div>
             </div>
         </>

@@ -1,0 +1,13 @@
+.container
+{
+    display : flex;
+    justify-content: space-between;
+    width : 100px;
+}
+
+.logo
+{
+    width : 20px;
+    height : 20px;
+    object-fit: fill;
+}
