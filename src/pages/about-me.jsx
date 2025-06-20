@@ -15,7 +15,7 @@ export default function About()
                     get yourself too tired to worry about stuff like that. Plus, who doesn't want muscles?
                     <br></br><br></br>
                     Gaming is also a great distraction, but I definitely have to be careful with it. Sometimes it 
-                    can do it's job a little too well. Some of my favourite games are Hollow Knight, Celeste, and
+                    can do its job a little too well. Some of my favourite games are Hollow Knight, Celeste, and
                      Cuphead. You might recognize them as a trio of some of the more difficult types of games. I really 
                      enjoy the feeling of succeeding after many attempts because it makes it feel that much more rewarding.
                      I know not many things will ever come easy in life, so I try to build persistence any way I know how.
@@ -24,8 +24,15 @@ export default function About()
                     small person in my native language. He was a smaller cat). 
 
                     <div id="photos">
-                        <img src={catBook} alt="an orange cat resting on a book" class="catfoto"></img>
-                        <img src={catEyes} alt="a cat with wide eyes open" class="catfoto"></img>
+                        <figure>
+                            <img src={catBook} alt="an orange cat resting on a book" class="catfoto"></img>
+                            <figcaption>This is Chottu!</figcaption>
+                        </figure>
+
+                        <figure>
+                            <img src={catEyes} alt="a cat with wide eyes open" class="catfoto"></img>
+                            <figcaption>This is Honey!</figcaption>
+                        </figure>
                     </div>
                     
                     <br></br>
